@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100
+    ..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=
+    Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/454aa3a876.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/contact.css">
@@ -37,7 +39,6 @@
                 <option value="other">Other</option>
             </select>
         </div>
-            <br>
         <div>
             <label for="title">Title</label>
             <br>
@@ -80,11 +81,24 @@
             <textarea class="textarea2" name="message" id="message" cols="60" rows="10" placeholder="Your Message Here"></textarea>
         </div>
         <div>
-            <label for="method">Prederred method of communication</label>
+            <label for="method">Preferred method of communication</label>
             <select class="select-3" name="method" id="method">
                 <option value="phone">By phone</option>
                 <option value="email">By E-mail</option>
             </select>
+        </div>
+        <div class="checkbox-wrap">
+            <label class="checkbox-label">
+                <input type="checkbox" name="check" id="check">
+                <label class="check-text">
+                    Yes, I would like to receive the latest news and updates on special offers from Serenity.
+                </label>
+                <span class="checkbox-custom"></span>
+            </label>
+        </div>
+        <br>
+        <div>
+            <button type="submit">SUBMIT</button>
         </div>
     </div>
 </body>
