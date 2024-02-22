@@ -2,6 +2,20 @@ body{
     background-color: whitesmoke ;
     width: 100%;
 }
+/*may not need it 
+header{
+    width: 100%;
+    max-width: 2000px;
+    min-height: 160px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to top,
+        #fff3ea 0%,
+        #fff3ea 75%,
+        #501c65 75%,
+        #501c65 100%
+    );
+}*/
 .nav-header{
     width: 100%;
     max-width: 2000px;
@@ -93,19 +107,43 @@ button:hover{
     height: 600px;
     object-fit: cover;
 }*/
+.contact-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
 .contact-title{
     font-size: 50px;
     font-family: "Playfair Display", serif;
     color: #501c65;
-    align-self: center;
+    text-align: center;
 }
 .main-form{
     box-sizing: border-box;
     width: 100%;
+    max-width: 400px;
+    min-height: 200px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-
+}
+.main-map{
+    display: flex;
+}
+.main-footer{
+    width: 100%;
+    max-width: 2000px;
+    min-height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to bottom,
+        #fff3ea 0%,
+        #fff3ea 80%,
+        #501c65 80%,
+        #501c65 100%
+    );
 }
