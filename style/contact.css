@@ -133,6 +133,7 @@ button:hover{
 }
 .main-map{
     display: flex;
+    flex-direction: column;
 }
 .main-footer{
     width: 100%;
