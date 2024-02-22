@@ -1,6 +1,7 @@
 body{
     background-color: whitesmoke ;
     width: 100%;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 /*may not need it 
 header{
@@ -56,7 +57,6 @@ header{
     color: black;
     text-decoration: none;
     font-size: 20px;
-    font-family:  Arial, Helvetica, sans-serif;
     /*maybe add width: 20%;*/
     text-align: center;
 }
@@ -110,7 +110,7 @@ button:hover{
 .contact-main{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 .contact-title{
@@ -118,22 +118,133 @@ button:hover{
     font-family: "Playfair Display", serif;
     color: #501c65;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .main-form{
     box-sizing: border-box;
     width: 100%;
-    max-width: 400px;
-    min-height: 200px;
-    padding: 20px;
-    font-size: 18px;
-    line-height: 30px;
-    margin-left: 30px;
+    max-width: 700px;
+    min-height: 300px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 33px;
+    color: #501c65;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
+.input-field,.textarea, .select{
+    font-size: 18px;
+    border-color: #501c65;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 100%;
+    width: 610px;
+    padding: 10px;
+    margin: 0;
+    background-color: #fff3ea;
+}
+.input-field:focus, .textarea:focus, .select:focus, 
+.checkbox-custom:focus{
+    background-color:#fff7ea;
+    border-color: white;
+    border-width: 2px;
+    border-radius:10px;
+    padding:10px;
+}
+.btn-form:focus{
+    background-color: #b05189;
+    border-radius: 5px;
+    padding: 5px;
+}
+.select{
+    cursor: pointer;
+    width: 100%;
+    max-width: 635px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.textarea{
+    resize: none;
+    border-radius: 10px;
+    padding:10px;
+}
+.input-field:hover, .textarea:hover, select:hover{
+    border-color: #b8528a;
+}
+.checkbox-wrap{
+    position: relative;
+    margin-top: 15px;
+}
+.check-text{
+    margin-left: 35px;
+}
+.checkbox-label input{
+    position:absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox-label .checkbox-custom{
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    height: 25px;
+    width: 25px;
+    background-color: #fff3ea;
+    border-radius: 5px;
+    border: 2px solid #501c65;
+}
+.checkbox-label .checkbox-custom::after{
+    position: absolute;
+    content: "";
+    left: 24px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+    border: solid transparent;
+    border-width: 0 3px 3px 0;
+    transform: rotate(0deg)scale(0deg);
+    opacity: 1;
+}
+.checkbox-label input:checked~ .checkbox-custom{
+    background-color: #fff3ea;
+    border-radius: 5px;
+    transform: rotate(0deg)scale(0deg);
+    opacity: 1;
+    border: 2px solid #501c65;
+}
+.checkbox-label input:checked~ .checkbox-custom::after{
+    transform: rotate(45deg)scale(1);
+    opacity: 1;
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid #501c65;
+    border-width: 0 2px 2px 0;
+    background-color: #fff3ea;
+    border-radius: 0;
+} 
 .main-map{
     display: flex;
     flex-direction: column;
+    align-self: center;
+    
+}
+.title-map{
+    font-size: 35px;
+    color: #501c65;
+    font-family:"Playfair Display", serif;
+    font-weight: 550;
+}
+.map-image{
+    width:800px; 
+    height:450px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: #fff3ea;   
 }
 .main-footer{
     width: 100%;
