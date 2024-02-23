@@ -264,29 +264,38 @@ button:hover{
     margin: 0 auto;
     background: linear-gradient(
         to bottom,
-        #fff3ea 0%,
-        #fff3ea 87%,
+        #501c65 0%,
         #501c65 87%,
-        #501c65 100%
+        #fff3ea 87%,
+        #fff3ea 100%
     );
-    display: flex;
-    justify-content: space-evenly;  
+    color: #fff3ea;
+    padding: 10px;
+    display: flex; 
     align-items: center;
+    justify-content:space-around;
 }
 .fnav{
     list-style-type: none;
-    font-size: 20px;
-}
-.fnav>li{
-    margin-left: 30px;
+    font-size: 30px;
+    line-height: 50px;
+    
 }
 .fnav>li>a{
     text-decoration: none;
-    color: #501c65;
+    color: #fff3ea;
 }
-
+.footer-map{
+    position: relative;
+    bottom: 20px;
+    font-weight: 450;
+    font-size: 16px;
+}
 .fmap-img{
     width:250px; 
-    height:250px;
-    
+    height:150px;
+    filter: grayscale(60%); 
+}
+.fmap-title{
+    font-family:"Playfair Display", serif;
 }
