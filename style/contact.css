@@ -127,7 +127,7 @@ button:hover{
     max-width: 700px;
     min-height: 300px;
     padding-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 38px;
     color: #501c65;
     display: flex;
@@ -141,7 +141,6 @@ button:hover{
     width: 100%;
     width: 610px;
     padding: 10px;
-    margin: 0;
     background-color: #fff3ea;
 }
 .input-field:focus, .textarea:focus, .select:focus, 
@@ -166,10 +165,14 @@ button:hover{
     border-radius: 5px;
     padding: 5px;
 }
+.input-field{
+    margin-bottom: 10px;
+}
 .select{
     cursor: pointer;
     width: 100%;
     max-width: 635px;
+    margin-bottom: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -257,13 +260,13 @@ button:hover{
 .main-footer{
     width: 100%;
     max-width: 2000px;
-    min-height: 300px;
+    min-height: 350px;
     margin: 0 auto;
     background: linear-gradient(
         to bottom,
         #fff3ea 0%,
-        #fff3ea 80%,
-        #501c65 80%,
+        #fff3ea 87%,
+        #501c65 87%,
         #501c65 100%
     );
 }
