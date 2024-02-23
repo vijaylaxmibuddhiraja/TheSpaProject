@@ -255,12 +255,12 @@ button:hover{
     height:450px;
     border-style: solid;
     border-width: 25px;
-    border-color: #fff3ea;   
+    border-color: #fff3ea;  
 }
 .main-footer{
     width: 100%;
     max-width: 2000px;
-    min-height: 350px;
+    min-height: 450px;
     margin: 0 auto;
     background: linear-gradient(
         to bottom,
@@ -269,4 +269,24 @@ button:hover{
         #501c65 87%,
         #501c65 100%
     );
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+.fnav{
+    list-style-type: none;
+    font-size: 20px;
+}
+.fnav>li{
+    margin-left: 30px;
+}
+.fnav>li>a{
+    text-decoration: none;
+    color: #501c65;
+}
+
+.fmap-img{
+    width:250px; 
+    height:250px;
+    
 }
