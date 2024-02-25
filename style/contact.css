@@ -256,9 +256,9 @@ button:hover{
     border-style: solid;
     border-width: 25px;
     border-color: #fff3ea;  
-}
+} 
 .main-footer{
-    width: 100%;
+    /*width: 100%;seems to make the footer longer than other section*/
     max-width: 2000px;
     min-height: 450px;
     margin: 0 auto;
@@ -274,17 +274,16 @@ button:hover{
     display: flex; 
     align-items: center;
     justify-content:space-around;
-}
+} 
 .fnav{
     list-style-type: none;
     font-size: 30px;
     line-height: 2.5;
     margin-bottom: 40px;
-    /*
     position: relative;
-    bottom: 20px;*/
+    bottom: 20px;
     
-}
+} 
 .fnav>li>a{
     text-decoration: none;
     color: #fff3ea;
@@ -296,8 +295,7 @@ button:hover{
     font-size: 18px;
 }
 .fmap-img{
-    width: 100%;
-    max-width:250px; 
+    width:250px; 
     height:150px;
     filter: grayscale(60%); 
 }
@@ -307,14 +305,14 @@ button:hover{
 }
 .footer-form{
     font-size: 16px;
-    /*position: relative;
-    bottom: 65px;*/
+    position: relative;
+    bottom: 65px;
 }
 .input-footer{
     font-size: 16px;
     border-color: #501c65;
     border-width: 2px;
-    /*max-width: 100px;
+    max-width: 100px;
     height: 20px;
     background-color: #fff3ea;
 }
