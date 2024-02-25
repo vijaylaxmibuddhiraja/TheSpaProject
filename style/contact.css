@@ -1,6 +1,7 @@
 body{
     background-color: whitesmoke ;
     width: 100%;
+    max-width: 2000px;
     font-family:  Arial, Helvetica, sans-serif;
 }
 header{
@@ -109,6 +110,7 @@ button:hover{
 }*/
 .contact-main{
     width: 100%;
+    max-width: 2000px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
