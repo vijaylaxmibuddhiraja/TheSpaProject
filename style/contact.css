@@ -139,7 +139,7 @@ button:hover{
     border-width: 2px;
     border-radius: 5px;
     width: 100%;
-    width: 610px;
+    max-width: 610px;
     padding: 10px;
     background-color: #fff3ea;
 }
@@ -278,7 +278,11 @@ button:hover{
 .fnav{
     list-style-type: none;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+    /*
+    position: relative;
+    bottom: 20px;*/
     
 }
 .fnav>li>a{
@@ -289,13 +293,28 @@ button:hover{
     position: relative;
     bottom: 20px;
     font-weight: 450;
-    font-size: 16px;
+    font-size: 18px;
 }
 .fmap-img{
-    width:250px; 
+    width: 100%;
+    max-width:250px; 
     height:150px;
     filter: grayscale(60%); 
 }
 .fmap-title{
     font-family:"Playfair Display", serif;
+    font-size: 28px;
+}
+.footer-form{
+    font-size: 16px;
+    /*position: relative;
+    bottom: 65px;*/
+}
+.input-footer{
+    font-size: 16px;
+    border-color: #501c65;
+    border-width: 2px;
+    /*max-width: 100px;
+    height: 20px;
+    background-color: #fff3ea;
 }
