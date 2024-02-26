@@ -1,12 +1,12 @@
 body{
     background-color: whitesmoke ;
-    width: 100%;
-    max-width: 2000px;
+    /*width: 100%;
+    max-width: 2000px;*/
     font-family:  Arial, Helvetica, sans-serif;
 }
 header{
     width: 100%;
-    max-width: 2000px;
+   /* max-width: 2000px;*/
     min-height: 160px;
     margin: 0 auto;
     background: linear-gradient(
@@ -19,7 +19,7 @@ header{
 }
 .nav-header{
     width: 100%;
-    max-width: 2000px;
+   /* max-width: 2000px;*/
     min-height: 160px;
     margin: 0 auto;
     background: linear-gradient(
@@ -32,7 +32,7 @@ header{
 }
 .navbar{
     width: 100%;
-    max-width: 2000px;
+    /*max-width: 2000px;*/
     height:120px;
     padding: 25px;
     background: linear-gradient(
@@ -57,7 +57,7 @@ header{
     margin-top: 30px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     /*maybe add width: 20%;*/
     text-align: center;
 }
@@ -96,7 +96,7 @@ button:hover{
 } 
 .header-image{
     width: 100%;
-    max-width: 2000px;
+    /*max-width: 2000px;*/
     height: 600px;
     background-image: url(../images/candles-contact.png);
     background-size: cover;
@@ -258,9 +258,21 @@ button:hover{
     border-style: solid;
     border-width: 25px;
     border-color: #fff3ea;  
-} 
+}
+footer{
+    width: 100%;
+    min-height: 450px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to bottom,
+        #501c65 0%,
+        #501c65 87%,
+        #fff3ea 87%,
+        #fff3ea 100%
+    );
+}
 .main-footer{
-    /*width: 100%;seems to make the footer longer than other section*/
+    width: 100%;
     max-width: 2000px;
     min-height: 450px;
     margin: 0 auto;
