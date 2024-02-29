@@ -4,14 +4,10 @@
 }
 
 body {
+    width: 100%;
+    height: 200vh;
     background-color: whitesmoke;
-    font-family: "Open Sans", sans-serif;
-    font-family: "Montserrat", sans-serif;
-}
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+    
 }
 
 header {
@@ -27,7 +23,7 @@ header {
 
 p {
     color: bisque;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Dancing Script";
     font-style: italic;
     font-weight:bolder;
     display: flex;
@@ -35,43 +31,98 @@ p {
     align-items: center;
 }
 
-.navbar {
-    width: 100%;
-    height: 70px;
-    background-color:#f4d3ba;
-    padding: 20px;   
+
+ul {
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none;  
+    
+} 
+ 
+.menulist li a {
+    position: relative;
+    display: block; 
+    margin-left: 40px;
+    /* padding-right: 10px; */
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; 
+    text-decoration: none;
+    font-weight: bold; 
+    padding-top: 40px;
+    font-size: 1.2em;
+    transition: .3s;
+}   
+.menulist li a:hover {
+    color: #8e2563;
 }
 
-.logo {
+/* .navbar { 
+    position: relative;
+    width: 100%;
+    /* margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+  */
+nav { 
+    background:  #f6e6db;
+    position: relative;
+    height: 80px;
+    min-height: 100px;
+   
+}
+
+ /*.logo {
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center; 
     mix-blend-mode: multiply;
-    width: 2%;
-    height: 2%;
-    margin-top: 80px;
-    margin-left: 47%;
-
+    width: 40px; 
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 35px;
 }
-/*.menulist {
-    display: flex;
+ */
+.logo {
+    position: absolute; 
+    top:15px;
+    padding-right: 10px;
     
-    font-size: 1.2em;
-    text-decoration-color: #501c65;
-}    
-   
+}
 
 
- .menulist .labelname { 
-    font-family: "Dancing Script", cursive;
+.labelname { 
+    
+    text-decoration: none;
+    font-family:  "Playfair Display", serif;
+    color: #f04b0a;
+    text-transform: uppercase;
+    font-weight: 400;
     font-weight: bold;
-    font-style: italic;
-    text-decoration: #501c65;
-    font-size: 40px;
-}    
-*/
-
-   
-
+    font-size: 45px;
+    margin-top: 25px;
+    margin-left: 60px;
     
+}    
+
+.labelname:hover {
+    color: #8e2563;
+    cursor: pointer;
+}
+   
+button {
+    background-color: #501c65;
+    color: #f6e6db;
+    width: 140px;
+    max-width: 100%;
+    min-height: 60px;
+    margin-top: 18px;
+    font-size:20px;
+    padding-left: 5px;
+}
+
+.btn-nav:hover {
+    background-color: #8e2563;
+}    
