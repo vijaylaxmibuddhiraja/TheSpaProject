@@ -43,23 +43,27 @@ p {
     }
 }
 
-.menulist {
+/*.menulist {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
 
 .menu-icon {
-    border: 1px solid orange ;
-    padding: 35px 20px;
+    /* border: 1px solid orange ; 
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 25px 20px;
     position: relative;
+    float: right;
+    cursor: pointer;
 }
 
 .nav-icon {
     background: orange;
     display: block;
-    height: 3px;
-    width: 18px;
+    height: 4px;
+    width: 20px;
     position: relative;
     transition: background .2s ease-out;
 }
@@ -70,7 +74,7 @@ p {
     width: 100%;
     position: absolute;
     transition: all .2 ease-out;
-    top: 15px;
+     top: 8px; 
 }
 
 .menu-icon .nav-icon:after {
@@ -80,10 +84,24 @@ p {
     width: 100%;
     position: absolute;
     transition: all .2 ease-out;
-    top: 7px;
+    top: -7px;
 }
-/* ul { 
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn:checked ~ .menulist {
+    max-height: 240px;
+}
+
+*/
+
+
+ ul { 
+    /* position:absolute; */
     display: flex; 
+    margin-left: 10px;
     justify-content: space-evenly;
     list-style: none;  
     
@@ -92,12 +110,12 @@ p {
 .menulist li a {
     position: relative;
     display: block; 
-    margin-left: 40px;
-    /* padding-right: 10px; 
-    text-transform: uppercase;
+    margin-left: 20px;
+    padding-right: 20px;  
+    text-transform:capitalize;
     font-family: "Montserrat", sans-serif; 
     text-decoration: none;
-    font-weight: bold; 
+    font-weight: light; 
     padding-top: 40px;
     font-size: 1.2em;
     transition: .3s;
@@ -114,7 +132,7 @@ p {
     justify-content: space-between;
     align-items:center;
 }
-  
+ */ 
 nav { 
     background:  #f6e6db;
     position: relative;
@@ -123,7 +141,7 @@ nav {
    
 }
 
- /*.logo {
+/* .logo { 
     position: absolute;
     display: flex;
     justify-content:center;
@@ -134,11 +152,15 @@ nav {
     margin-top: 15px;
     margin-left: 35px;
 }
- 
-.logo {
-    position: absolute; 
-    top:15px;
-    padding-right: 10px;
+*/
+ .logo { 
+    position: absolute;
+    top:12px;
+    /* display: flex; 
+    justify-content: flex-start;
+    align-items: start;*/
+    /* padding-left: 5px;  */
+    
     
 }
 
@@ -153,7 +175,7 @@ nav {
     font-weight: bold;
     font-size: 45px;
     margin-top: 25px;
-    margin-left: 60px;
+    margin-left: 8px;
     
 }    
 
@@ -170,10 +192,10 @@ button {
     min-height: 60px;
     margin-top: 18px;
     font-size:20px;
+    margin-left: 40px;
     padding-left: 5px;
 }
 
 .btn-nav:hover {
     background-color: #8e2563;
 }    
- */
