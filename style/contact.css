@@ -102,6 +102,9 @@ button:hover{
     background-size: cover;
     background-position: center;
 } 
+.header-text{
+    opacity: 0;
+}
 /*
 .contact-pic{
     width: 100%;
