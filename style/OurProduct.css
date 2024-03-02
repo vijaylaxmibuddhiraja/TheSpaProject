@@ -21,7 +21,7 @@ header {
     padding: 10px;
 }    
 
-/*p {
+.scroll-msg {
     color: bisque;
     font-family: "Dancing Script";
     font-style: italic;
@@ -42,65 +42,10 @@ header {
         transform: translateX(-20%);
     }
 }
-*/
-/*.menulist {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
-
-.menu-icon {
-    /* border: 1px solid orange ; 
-    margin-top: 15px;
-    margin-right: 20px;
-    padding: 25px 20px;
-    position: relative;
-    float: right;
-    cursor: pointer;
-}
-
-.nav-icon {
-    background: orange;
-    display: block;
-    height: 4px;
-    width: 20px;
-    position: relative;
-    transition: background .2s ease-out;
-}
-.menu-icon .nav-icon:before {
-    background: orange;
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transition: all .2 ease-out;
-     top: 8px; 
-}
-
-.menu-icon .nav-icon:after {
-    background: orange;
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    transition: all .2 ease-out;
-    top: -7px;
-}
-
-.menu-btn {
-    display: none;
-}
-
-.menu-btn:checked ~ .menulist {
-    max-height: 240px;
-}
-
-*/
-
 
  ul { 
     display: flex; 
-    margin-left: 20px;
+    /* margin-left: 20px; */
     justify-content: space-evenly;
     list-style: none;  
     
@@ -109,14 +54,15 @@ header {
 .menulist li a {
     /* position: relative; */
     /* display: block;  */
-    display: inline-block;
-    margin-left: 20px;
-    padding-right: 20px;  
-    text-transform:capitalize;
+    /* display: inline-block; */
+    display: flex;
+    /* margin-left: 20px; */
+    /* padding-right: 20px;   */
+    text-transform:uppercase;
     font-family: "Montserrat", sans-serif; 
     text-decoration: none;
-    font-weight: light; 
-    padding-top:38px;
+    font-weight: bold; 
+    /* padding-top:38px; */
     font-size: 1.2em;
     transition: .3s;
 }   
