@@ -1,12 +1,11 @@
 body{
-    background-color: whitesmoke ;
-    /*width: 100%;
-    max-width: 2000px;*/
+    background-color: #f6e6db  ;
+    width: 100%;
     font-family:  Arial, Helvetica, sans-serif;
 }
 header{
     width: 100%;
-   /* max-width: 2000px;*/
+    max-width: 1440px;
     min-height: 160px;
     margin: 0 auto;
     background: linear-gradient(
@@ -19,8 +18,9 @@ header{
 }
 .nav-header{
     width: 100%;
-   /* max-width: 2000px;*/
+    max-width: 1440px;
     min-height: 160px;
+    padding-bottom: 20px;
     margin: 0 auto;
     background: linear-gradient(
         to top,
@@ -29,10 +29,12 @@ header{
         #501c65 75%,
         #501c65 100%
     );
+    display: flex;
+    justify-content: center;
 }
 .navbar{
     width: 100%;
-    /*max-width: 2000px;*/
+    max-width: 1024px;
     height:120px;
     padding: 25px;
     background: linear-gradient(
@@ -94,10 +96,10 @@ button:hover{
     background-color:#8e2563;
     color: #fff3ea;
 } 
-.header-image{
+.cont-header-img{
     width: 100%;
-    /*max-width: 2000px;*/
-    height: 600px;
+    /*max-width: 1440px;*/
+    min-height: 400px;
     background-image: url(../images/candles-contact.png);
     background-size: cover;
     background-position: center;
@@ -113,11 +115,18 @@ button:hover{
 }*/
 .contact-main{
     width: 100%;
-    /*max-width: 2000px;*/
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box; 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+.contact-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
 .contact-title{
     font-size: 50px;
     font-family: "Playfair Display", serif;
@@ -256,7 +265,8 @@ button:hover{
     font-weight: 550;
 }
 .map-image{
-    width:800px; 
+    width: 100%;
+    max-width:800px; 
     height:450px;
     border-style: solid;
     border-width: 25px;
