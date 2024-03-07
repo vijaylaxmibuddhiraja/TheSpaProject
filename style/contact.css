@@ -1,26 +1,12 @@
 body{
-    background-color: #f6e6db  ;
+    background-color:#f6e6db ;
     width: 100%;
     font-family:  Arial, Helvetica, sans-serif;
 }
 header{
     width: 100%;
-    max-width: 1440px;
-    min-height: 160px;
-    margin: 0 auto;
-    background: linear-gradient(
-        to top,
-        #fff3ea 0%,
-        #fff3ea 75%,
-        #501c65 75%,
-        #501c65 100%
-    );
-}
-.nav-header{
-    width: 100%;
-    max-width: 1440px;
-    min-height: 160px;
-    padding-bottom: 20px;
+    /*max-width: 1440px; */
+    min-height: 150px;
     margin: 0 auto;
     background: linear-gradient(
         to top,
@@ -29,8 +15,24 @@ header{
         #501c65 75%,
         #501c65 100%
     ); 
+    position: fixed;
+}
+.nav-header{
+    width: 100%;
+    max-width: 1440px;
+    min-height: 160px; 
+    padding-bottom: 20px;
+    margin: 0 auto; 
+   /* background: linear-gradient(
+        to top,
+        #fff3ea 0%,
+        #fff3ea 75%,
+        #501c65 75%,
+        #501c65 100%
+    ); */
     display: flex;
     justify-content: center;
+
 }
 .navbar{
     width: 100%;
@@ -96,23 +98,31 @@ button:hover{
     background-color:#8e2563;
     color: #fff3ea;
 } 
-.cont-header-img{
-    width: 100%;
-    /*max-width: 1440px;*/
-    min-height: 400px;
-    background-image: url(../images/candles-contact.png);
-    background-size: cover;
-    background-position: center;
-} 
-.header-text{
-    opacity: 0;
-}
+
 /*
 .contact-pic{
     width: 100%;
     height: 600px;
     object-fit: cover;
 }*/
+.cont-header-img{
+    width: 100%;
+    max-width: 1440px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    /*background-image: url(../images/candles-contact.png);
+    background-size: cover;
+    background-position: center;*/
+} 
+.header-text{
+    opacity: 0;
+}
+.contact-pic{
+    width: 100%;
+    height: 710px;
+    margin:0 auto;
+}
 .contact-main{
     width: 100%;
     max-width: 1440px;
@@ -259,7 +269,7 @@ button:hover{
     background-color: #fff3ea;
     border-radius: 0;
 } 
-.main-map{
+.contact-map{
     width: 100%;
     max-width: 500px;
     min-height: 400px;
@@ -290,8 +300,8 @@ button:hover{
 } 
 footer{
     width: 100%;
-    max-width: 1440px;
-    min-height: 300px;
+   /* max-width: 1440px; */
+    min-height: 400px;
     margin: 0 auto;
     background: linear-gradient(
         to bottom,
@@ -304,39 +314,39 @@ footer{
 .main-footer{
     width: 100%;
     max-width: 1024px;
-    min-height: 300px;
+    min-height: 400px;
     margin: 0 auto;
     box-sizing: border-box;
-    /*background: linear-gradient(
-        to bottom,
-        #501c65 0%,
-        #501c65 85%,
-        #fff3ea 85%,
-        #fff3ea 100%
-    ); */
     color: #fff3ea;
     display: flex; 
     flex-wrap: wrap;
-    align-items: center;
     justify-content:space-evenly; 
+    align-content:space-evenly ;
 } 
-.fnav{
+.ftext{
+    text-align: center;
+    font-weight: bold;
+}
+.fnav , .fsocials{
     list-style-type: none;
     font-size: 25px;
     line-height: 2;
-    padding-bottom: 20px;
-    
+    padding-bottom: 10px;
+} 
+.fsocials{
+    display: flex;
+    justify-content: space-around;
+}
+.fsocials>li>a{
+    text-decoration: none;
+    color: #fff3ea;
 } 
 .fnav>li>a{
     text-decoration: none;
     color: #fff3ea;
-} /*
-.footer-map{
-    position: relative;
-    bottom: 20px;
-    font-weight: 450;
-    font-size: 18px;
-} */
+} 
+
+/*
 .fmap-img{
     width:250px; 
     height:150px;
@@ -349,13 +359,14 @@ footer{
 .fmap-title{
     font-family:"Playfair Display", serif;
     font-size: 28px;
-}
+} */
 .footer-form{
     font-size: 18px;
     margin-right: 20px;
-    position: relative;
-    bottom:30px
-    
+    /*position: relative;
+    bottom:30px  
+    display: flex;
+    align-self: center;  */  
 }
 .input-footer, .input-footer-n{
     font-size: 19px;
@@ -387,10 +398,8 @@ footer{
     float: left;
     margin-top: 15px;
 }
-.newsletter-main{
-    margin-bottom: 40px;
-    
-}
+
+/*may not need  
 .login-main{
     margin-top: 20px;
     line-height: 3;
@@ -402,7 +411,7 @@ footer{
     height: 50px;
     margin-top: 20px;
     margin-left: 50px;
-}
+} */
 .footer-envelope{
     height: 15px;
     width: 15px;
