@@ -4,7 +4,7 @@ body{
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-header{
+.header-main{
     width: 100%;
     /*max-width: 1440px; */
     min-height: 150px;
@@ -269,6 +269,16 @@ button:hover{
     background-color: #fff3ea;
     border-radius: 0;
 } 
+.cont-container2{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
 .contact-map{
     width: 100%;
     max-width: 500px;
@@ -279,121 +289,126 @@ button:hover{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 7px;
     background: 
-    linear-gradient(45deg,#d6c8dc, #d8b3a5  );
-    /*display: flex;
-    flex-direction: column;
-    align-self: center;*/
-    
+    linear-gradient(45deg,#d6c8dc, #d8b3a5  );  
 }
 .title-map{
     font-size: 35px;
     color: #501c65;
     font-family:"Playfair Display", serif;
-    font-weight: 550;
-    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .map-image{
     width: 100%;
     min-height: 300px;
-    /*border-style: solid;
-    border-width: 25px;
-    border-color: #fff3ea;  */
 } 
-.cont-container2{
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+.map-image:hover{
+    border: 2px solid #501c65;
 }
 .contact-address{
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    margin-left: 25px;
     box-sizing: border-box;
+    padding: 20px;
     line-height: 1.5;
     color: #501c65;
     font-size: 20px;
-    font-weight: bold;
 }
 .add-link{
     color: #501c65;
-    
-
 }
 .add-link:hover{
     color: #8e2563;
 }
-footer{
-    width: 100%;
-   /* max-width: 1440px; */
-    min-height: 400px;
-    margin: 0 auto;
+.footer-main{
+    width: 100%; 
     background: linear-gradient(
         to bottom,
         #501c65 0%,
-        #501c65 85%,
-        #fff3ea 85%,
+        #501c65 90%,
+        #fff3ea 90%,
         #fff3ea 100%
     );
 }
-.main-footer{
+.footer-wrap{
     width: 100%;
-    max-width: 1024px;
-    min-height: 400px;
+    max-width: 1440px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 15px;
     color: #fff3ea;
     display: flex; 
     flex-wrap: wrap;
-    justify-content:space-evenly; 
-    align-content:space-evenly ;
+    justify-content: space-between;
 } 
-.ftext{
-    text-align: center;
-    font-weight: bold;
+.footer-container1{
+    width: 100%;
+    max-width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
-.fnav , .fsocials{
+.footer-container2{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px 15px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fsoc-text{
+    text-align: center;
+}
+.footer-socials{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.fbox-nav, .fsocials{
     list-style-type: none;
     font-size: 25px;
     line-height: 2;
     padding-bottom: 10px;
 } 
+.ftext{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 .fsocials{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 20px;
+} 
+.footer-link, .social-link{
+    text-decoration: none;
+    color: #fff3ea;
+} 
+.social-link{
+    margin-left: 20px;
 }
-.fsocials>li>a{
-    text-decoration: none;
-    color: #fff3ea;
+.footer-link:hover, .social-link:hover{
+    color: #f04b0a;
 } 
-.fnav>li>a{
-    text-decoration: none;
-    color: #fff3ea;
-} 
-
-/*
 .fmap-img{
-    width:250px; 
-    height:150px;
+    width:100%; 
+    min-height:150px;
     filter: grayscale(60%); 
     border: 2px solid  #fff3ea;
 }
 .fmap-img:hover{
     border: 3px solid #b05189;
 }
-.fmap-title{
-    font-family:"Playfair Display", serif;
-    font-size: 28px;
-} */
+.footer-add{
+    line-height: 1.5;
+}
 .footer-form{
-    font-size: 18px;
-    margin-right: 20px;
-    /*position: relative;
-    bottom:30px  
-    display: flex;
-    align-self: center;  */  
+    font-size: 18px; 
+    padding-left: 10px;
 }
 .input-footer, .input-footer-n{
     font-size: 19px;
@@ -425,23 +440,10 @@ footer{
     float: left;
     margin-top: 15px;
 }
-
-/*may not need  
-.login-main{
-    margin-top: 20px;
-    line-height: 3;
-}
-.btn-login{
-    border: 1px solid #8e2563;
-    background-color: #621c65;
-    width: 100px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 50px;
-} */
 .footer-envelope{
     height: 15px;
     width: 15px;
     fill: #fff3ea;
 }
+
 
