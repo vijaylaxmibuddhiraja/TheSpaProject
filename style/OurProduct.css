@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     width: 100%; 
+    height: 300vh;
+    background-color: whitesmoke;
+    
+}
+
+header {
+    position: relative;
+    width: 100%;
+    
+}
+
+.top {
+    background:  #501c65;
+    padding: 10px;
+}    
+
+.scroll-msg {
+    color: bisque;
+    font-family: "Dancing Script";
+    font-style: italic;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-10%);
+    animation: scroll 35s infinite linear;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(-20%);
+    }
+}
+
+.navbar ul { 
+    display: flex;  
+    justify-content: space-between;
+    list-style: none;  
+    
+} 
+ 
+.navbar .menulist a {
+    
+    display: block;  
+    text-transform:uppercase;
+    font-family: "Montserrat", sans-serif; 
+    text-decoration: none;
+    font-weight: bold; 
+    /* padding-top:38px;  */
+    font-size: 1.2em;
+    transition: .3s;
+}   
+.navbar .menulist li a:hover {
+    color: #8e2563;
+}
+
+.navbar { 
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav { 
+    background:  #f6e6db;
+    position: relative;
+    padding: 35px 0;
+    z-index: 10;
+   
+} 
+
+.text-logo { 
+    position: absolute;
+    margin-top:3px;
+    left: 34%; 
+    text-decoration: none;
+    font-family:  "Playfair Display", serif;
+    color: #f04b0a;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 48px;;   
+}
+
+nav ul {
+    width: 100%;
+    transition: .3s;
+}
+ 
+nav ul li:nth-child(2) {
+    margin-left:40px; 
+    margin-right: px;
+} 
+
+nav ul li:nth-child(3) {
+     margin-left: 280px; 
+} 
+
+
+.text-logo:hover {
+    color: #8e2563;
+    cursor: pointer;
+}
+   
+button {
+    position:absolute;
+    display: block;
+    background-color: #501c65;
+    color: #f6e6db;
+    width: 140px;
+    max-width: 100%;
+    min-height: 60px;
+    margin-top: -32px; 
+    font-size:20px;
+    margin-left: 7%; 
+    
+}
+
+.btn-nav:hover {
+    background-color: #8e2563;
+}    
+
+.bottom {
+background:  #501c65;
+padding: 10px;
+margin-top: 1px;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    
+}  
+
+.container {
+    background-color: #f6e6db ; 
+    padding: 40px 20px;      
+}
+
+/*img .flower  {
+    display: inline;
+    width:20%;
+    height:10%;
+    mix-blend-mode: multiply;
+    
+}
+*/
+h2 {
+    position: relative;
+    color: #f04b0a;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 42%;
+    margin-top: 60px;
+
+}
+
+h1 {
+    color: #501c65;
+    font-family:  "Playfair Display", serif;
+    font-size: 40px;
+    display: flex;
+    margin-left: 25%;
+    
+}
+
+.container .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 7px;
+    background: linear-gradient(45deg,#d6c8dc, #d8b3a5  );
+    /* background:#f6e6db; */
+     /* background: #d6c8dc; */ 
+     text-align: center;
+     padding: 30px 20px;
+    
+}
+
+.container .box-container .box h5 {
+      color: #f04b0a;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-top: 10px;
+     
+}
+.container .box-container .box h3 {
+      color: #501c65;
+      font-size: 20px;
+      padding: 10px;
+      line-height: 1.8; 
+}
+
+.container .box-container .box p {
+    color: #501c65;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 2; 
+}
+
+.container .box-container .box .btn {
+       margin-top: 10px;
+       display: inline-block;
+       background: #501c65;
+       color: #d8b3a5;
+       font-size: 17px;
+       border-radius: 6px;
+       padding: 10px 25px;
+       text-decoration: none;
+}
+
+.container .box-container .box .btn:hover {
+      letter-spacing: 1px;
+      background-color: #8e2563;
+      
+}
+
+.container .box-container .box .btn:hover {
+     box-shadow: 0 10px 15px rgba(0,0,0,.2);
+     transform: scale(1.03);
+}
+
+.container .box-container .box .btn:hover {
+
+}
