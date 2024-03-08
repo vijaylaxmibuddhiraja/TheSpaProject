@@ -173,6 +173,14 @@ main {
     
 }
 */
+.flogo {
+    mix-blend-mode: multiply;
+    width: 60px;
+    height: 50px;
+    margin-left:45% ;
+    padding-top: 50px;
+}
+
 h2 {
     position: relative;
     color: rgb(18, 18, 145);
@@ -181,7 +189,8 @@ h2 {
     font-size: 30px;
     font-style: normal;
     margin-left: 40%;
-    margin-top: 60px;
+    margin-top: 20px;
+    
 
 }
 
@@ -190,7 +199,7 @@ h1 {
     font-family:  "Playfair Display", serif;
     font-size: 40px;
     display: flex;
-    margin-left: 20%;
+    margin-left: 19%;
     
 }
 
