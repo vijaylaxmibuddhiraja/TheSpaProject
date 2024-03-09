@@ -102,18 +102,13 @@ nav ul li:nth-child(3) {
 .btn-nav{
     position:absolute;
     display: block;
-    background-color: #501c65;
-    color: #f6e6db;
     width: 140px;
     max-width: 100%;
     min-height: 60px;
     margin-top: -32px; 
     font-size:20px;
     margin-left: 7%; 
-}
-.btn-nav:hover {
-    background-color: #8e2563;
-}    
+}   
 .fa-solid{
     margin-right: 10px;
     font-size: 34px;
@@ -128,6 +123,12 @@ button{
     color: #fff3ea;
     font-family:  "Quattrocento Sans", sans-serif;
     padding: 8px;
+    opacity: 1;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 0.9;
+    background-color: #8e2563;
 }
 /*
 .btn-nav{
@@ -143,11 +144,11 @@ button{
 .fa-solid{
     margin-right: 10px;
     font-size: 34px;
-}
+} */
 button:hover{
     background-color:#8e2563;
     color: #fff3ea;
-} */
+} 
 .cont-header-img{
     width: 100%;
     min-height: 200px;
