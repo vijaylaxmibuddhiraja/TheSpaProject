@@ -7,6 +7,7 @@ body{
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #501c65;
+    box-sizing: border-box;
 }
 .header-main{
     width: 100%;
@@ -117,23 +118,20 @@ button:hover{
 .contact-main{
     width: 100%;
     max-width: 1440px;
+    min-height: 100vh;
     margin: 0 auto;
-    box-sizing: border-box;
     padding: 0 15px;
-    background-color: #f1eee8;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    background-color: white;
+    /*background-color: #f1eee8;*/
 } 
 .contact-wrap{
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
     box-sizing: border-box;
-    background-color: #f1eee8;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 } 
 .contact-title{
     font-size: 50px;
@@ -144,7 +142,6 @@ button:hover{
     font-weight: 500;
 }
 .contact-container1{
-    border: 1px solid black;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -152,35 +149,62 @@ button:hover{
 }
 .main-form{
     width: 100%;
-    max-width: 700px;
-    min-height: 200px;
-    box-sizing: border-box;
-    padding: 15px 20px 30px 30px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 10px 5px 10px 5px;
     font-size: 20px;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 1.5;
     color:#501c65;
+    font-family:"Playfair Display", serif;
+    font-weight: 700;
+    overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 } 
-.input-field,.textarea, .select{
-    font-size: 18px;
-    border-color: #501c65;
-    border-width: 2px;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 610px;
-    padding: 10px;
-    background-color: #fff3ea;
+.form-title{
+    text-align: center;
+    letter-spacing: 2px;
 }
-.input-field:focus, .textarea:focus, .select:focus, 
-.checkbox-custom:focus{
-    background-color:#fff7ea;
-    border-color: #f04b0a;
-    border-width: 3px;
-    border-radius:10px;
+.input-field,
+.textarea,
+.select{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    border:2px solid #501c65;
+    box-sizing: border-box;
+    border-width: 2px;
+    padding: 15px;
+    background-color: #f1eee8;
+    font-family: sans-serif;
+}
+.input-field{
+    margin-bottom: 10px;
+} 
+.select{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.textarea{
+    resize: none;
     padding:10px;
+} 
+.input-field::placeholder,
+.textarea::placeholder{
+    color: grey;
+    opacity:1.5;
+}  
+.input-field:focus,  
+.textarea:focus, 
+.select:focus, 
+.checkbox-custom:focus{
+    background-color:#f1eee8;
+    border: 3px solid #8e2563;
+    padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    outline: none;
 }
 .btn-form{
     width:100%;
@@ -195,23 +219,9 @@ button:hover{
     border-radius: 5px;
     padding: 5px;
 }
-.input-field{
-    margin-bottom: 10px;
-}
-.select{
-    cursor: pointer;
-    width: 100%;
-    max-width: 635px;
-    margin-bottom: 10px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.textarea{
-    resize: none;
-    border-radius: 10px;
-    padding:10px;
-}
-.input-field:hover, .textarea:hover, select:hover{
+.input-field:hover, 
+.textarea:hover, 
+.select:hover{
     border-color: #b8528a;
 }
 .checkbox-wrap{
@@ -268,20 +278,19 @@ button:hover{
     background-color: #fff3ea;
     border-radius: 0;
 } 
+.checkbox-label .checkbox-custom:hover{
+    border: 2px solid #8e2563 ;
+    background-color: #f7e3bc;
+}
 .cont-container2{
     width: 100%;
     height: 400px;
-    border:1px solid #501c65;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 15px;
-    box-sizing: border-box;
     display: flex;
-    justify-content: center;
 }
 .contact-map{
     width: 100%;
-    height: 100%;
     margin: 0 auto;  
 }
 .title-map{
@@ -293,8 +302,8 @@ button:hover{
     text-align: center;
 }
 .map-image{
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 .map-image:hover{
     border: 2px solid #501c65;
@@ -306,10 +315,12 @@ button:hover{
     line-height: 1.5;
     color: #501c65;
     font-size: 20px;
+    background-color: #f1eee8;
 }
 .add-text{
     width:300px;
     height: 50px;
+    padding-left: 50px;
 }
 .add-link{
     color: #501c65;
