@@ -22,6 +22,8 @@ body{
     padding: 5px;
 }    
 .scroll-msg {
+    width: 100%;
+    max-width: 1440px;
     color: bisque;
     font-family: "Dancing Script";
     font-style: italic;
@@ -34,10 +36,10 @@ body{
 }
 @keyframes scroll {
     from {
-        transform: translateX(50%);
+        transform: translateX(39%);
     }
     to {
-        transform: translateX(-20%);
+        transform: translateX(0%);
     }
 }
 .navbar ul { 
