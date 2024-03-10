@@ -189,10 +189,16 @@ button:hover{
     text-transform: uppercase;
     font-weight: 500;
 }
+/*
 .cont-logo{
     width: 120px;
     height: 100px;
     mix-blend-mode: multiply;
+}
+*/
+.spa-logo{
+    width: 120px;
+    height: 100px;
 }
 .contact-container1{
     width: 100%;
