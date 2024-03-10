@@ -163,8 +163,9 @@ main {
 }
 .logo{
     text-align: center;
-    padding-top: 20px 
-
+    padding-top: 20px; 
+    mix-blend-mode: multiply;
+    
 }
 
 h2 {
