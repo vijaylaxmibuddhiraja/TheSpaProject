@@ -443,6 +443,7 @@ button:hover{
 .footer_social-list {
     display: flex;
     gap: 15px;
+    list-style-type: none;
 }
 .footer__copyright {
     display: flex;
