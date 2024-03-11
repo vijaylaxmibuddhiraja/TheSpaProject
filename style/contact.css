@@ -6,6 +6,13 @@ html,
 body{
     height: 100%;
 }
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Open Sans", sans-serif;
+    color: #501c65;
+}
 .contact-body{
     background-color:white ;
     font-family:  Arial, Helvetica, sans-serif;
@@ -413,7 +420,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-.footer__content-left,
+.footer__content-left, 
 .footer__content-right {
     padding: 30px 0;
     }
@@ -428,31 +435,35 @@ button:hover{
 }
 .footer__menu-item {
     margin-bottom: 10px;
+    list-style-type: none;
 }
-.fotoer__menu-title {
+.footer__menu-title {
     margin-bottom: 27px;
+    color: #501c65;
 }
-.footer__social-link,
+.footer__social-link, 
 .footer__menu-link {
     color: #501c65;
+    text-decoration: none;
 }
 .footer__social-link {
     font-size: 24px;
 }
-.footer:hover {
+.footer:hover, .footer__social-link:hover {
     color: rgb(142, 37, 99);
-}
+} 
 .footer_social-list {
     display: flex;
     gap: 15px;
     list-style-type: none;
-}
+} 
 .footer__copyright {
     display: flex;
     justify-content: space-between;
 }
 .footer__copyright-list {
     display: flex;
+    list-style-type: none;
     }
 .footer__copyright-item + .footer__copyright-item{
     padding: 0 10px;
@@ -473,26 +484,30 @@ button:hover{
 }
 .footer__form {
     border: 1px solid #501c65;
-}
-.fotoer__form-input {
+} 
+.footer__form-input {
         padding: 10px 0 10px 25px;
         height: 48px;
         border: none;
         width: 325px;
+        box-sizing: border-box;
 }
 .footer__form-btn {
         width: 120px;
-        padding: 13px 0;
+        height: 48px;
+        padding: 13px 0; 
         cursor: pointer;
         background-color: #501c65;
         color: #fff;
         border: none;
-}
+        float: right;
+} /*
 .footer__form-btn:hover {
     background-color: rgb(142, 37, 99);
-}
+}  */
 .footer__find-us-map {
     margin-bottom: 50px;
+    color: #501c65;
 }
 .footer__newsletter {
     margin-bottom: 50px;
@@ -513,5 +528,8 @@ button:hover{
 }
 .find-us-title {
     margin-bottom: 10px;
+}
+.fa-trophy{
+  font-size: 24px;
 }
 
