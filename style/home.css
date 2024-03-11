@@ -295,6 +295,14 @@ h2 {
    
     padding: 40px 20px;
 }
+.img-text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: larger;
+    color: white;
+
+}
 
 .tile--with-detail {
     width: 100%;
