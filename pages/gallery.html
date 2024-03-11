@@ -9,57 +9,72 @@
     <script src="https://kit.fontawesome.com/10c378b679.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__offer">
-                <h5 class="header__offer-title">Stay Four Longer special offer | Book a four night stay & receive a night on us</h5>
+        <header>
+            <div class="top">
+             <p class="scroll-msg">Hurry! Upto 25% discount in services. Book your appointment now.</p>
             </div>
-            <div class="header__inner">
-                <button class="header__btn--menu">
-                    MENU
-                </button>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">About us</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Gallery</a>
-                        </li>
+    
+            <nav>
+                <div class="navbar">
+                    <a href="#" class="text-logo">SERENITY</a>
+        
+                    <ul class="menulist">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
-                </nav>
-                <a class="logo" href="#">
-                    SERENITY
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header__btn--book">
-                    BOOK
-                    <i class="fa-solid fa-calendar-days"></i>
+                    <div>
+                        <button class="btn-nav"><i class="fa-solid fa-calendar-days"></i>BOOK</button>
+                    </div>
+    
                 </div>
-            </div>
+                 
+            </nav>
+            
+              <div class="bottom"></div>
         </header>
 
+        <main class="gallery">
+            <div class="container">
 
+                    <h1 class="gallery__title">GALLERY</h1>
+                    <div class="gallery__container">
+                        <div class="gallery__element first">
+                            <img src="images/gallery-1.jpg" alt="sauna" class="pic">
+                        </div>
+                        <div class="gallery__element second">
+                            <img src="images/gallery-2.jpg" alt="facial oil massage" class="pic">
+                        </div>
+                        <div class="gallery__element third">
+                            <img src="images/gallery-3.jpg" alt="aroma" class="pic">
+                        </div>
+                        <div class="gallery__element fourth">
+                            <img src="images/gallery-9.jpg" alt="hall" class="pic">
+                        </div>
+                        <div class="gallery__element fifth">
+                            <img src="images/gallery-10.jpg" alt="stone massage" class="pic">
+                        </div>
+                        <div class="gallery__element sixth">
+                            <img src="images/gallery-8.jpg" alt="stone massage" class="pic">
+                        </div>
+                        <div class="gallery__element seventh">
+                            <img src="images/gallery-11.jpg" alt="balcony" class="pic">
+                        </div>
+                        <div class="gallery__element eighth">
+                            <img src="images/gallery-6.jpg" alt="bar" class="pic">
+                        </div>
+                    </div>
 
-
-
-
-
-
-
-        <main class="main"></main>
-
+            </div>
+        </main>
 
         <footer class="footer">
             <div class="container">
@@ -91,7 +106,7 @@
                             <h5 class="footer__menu-title">ABOUT</h5>
                             <ul class="footer__menu-list">
                                 <li class="footer__menu-item"><a href="#" class="footer__menu-link">About us</a></li>
-                                <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contact us</a></li>
+                                <li class="footer__menu-item"><a href="contact.html" class="footer__menu-link">Contact us</a></li>
                                 <li class="footer__menu-item"><a href="#" class="footer__menu-link">Careers</a></li>
                                 <li class="footer__menu-item"><a href="#" class="footer__menu-link">Maybourne Magazine</a></li>
                             </ul>
@@ -140,7 +155,7 @@
                             <div class="footer__lang">
                                 <form action="" class="footer__lang-form">
                                     <label class="footer__lang-label">Find out more information about us here</label>   
-                                    
+                                    <i class="fa-solid fa-chevron-down footer__select__icon"></i>
                                     <select class="footer__lang-select" id="lang" name="lang">
                                         <option value="SWEDISH">SWEDISH</option>
                                         <option value="ENGLISH">ENGLISH</option>
