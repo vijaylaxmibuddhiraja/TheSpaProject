@@ -78,7 +78,7 @@ header {
     align-items:center;
 }
 nav { 
-    background:  #f6e6db;
+    background:  #f1eee8;
     position: relative;
     padding: 35px 0;
     z-index: 10;
@@ -118,11 +118,11 @@ nav ul li:nth-child(3) {
     cursor: pointer;
 }
    
-button {
+.btn-nav {
     position:absolute;
     display: block;
-    background-color: #501c65;
-    color: #f6e6db;
+    /* background-color: #501c65;
+    color: #f6e6db; */
     width: 140px;
     max-width: 100%;
     min-height: 60px;
@@ -130,12 +130,26 @@ button {
     font-size:20px;
     margin-left: 7%; 
     
-}
+} 
 
 .fa-solid {
     margin-right: 10px;
     font-size: 34px;
-}    
+}   
+
+button {
+    background-color: #501c65;
+    color: #fff3ea;
+    font-family: "Montserrat", sans-serif ;
+    padding: 8px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: #8e2563;
+}
 
 .btn-nav:hover {
     background-color: #8e2563;
@@ -159,10 +173,10 @@ main {
 }  
 
 .container-grid {
-    max-width: 1200px;
-    background-color: #f6e6db ; 
+    max-width: 1240px;
+    background-color: #f1eee8;
     padding: 40px 20px;   
-    margin: 0 auto;   
+    margin: 30px auto;   
 }
 
 .flogo {
@@ -204,12 +218,13 @@ h1 {
     margin-left: 20px; */
     padding-left: 15px;
     padding-right: 20px; 
+    
 }
 
 .container-grid .box-container .box {
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 7px;
-    background: linear-gradient(45deg,#d6c8dc, #d8b3a5  );
+    background: linear-gradient(45deg,#d6c8dc,  #f1eee8  );
     /* background:#f6e6db; */
      /* background: #d6c8dc; */ 
      text-align: center;
@@ -217,6 +232,17 @@ h1 {
      transition: 1s;
     
 }
+
+.container-grid .box-container .box_sp {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 7px;
+    background: linear-gradient(45deg, #f1eee8, #d6c8dc, );
+    /* background:#f6e6db; */
+     /* background: #d6c8dc; */ 
+     text-align: center;
+     padding: 30px 20px;
+     transition: 1s;
+}    
 
 .box:hover {
     transform: scale(1.1);
