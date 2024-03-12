@@ -134,14 +134,14 @@ nav ul li:nth-child(3) {
 
 .fa-solid {
     margin-right: 10px;
-    font-size: 34px;
+    font-size: 28px;
 }   
 
 button {
     background-color: #501c65;
     color: #fff3ea;
     font-family: "Montserrat", sans-serif ;
-    padding: 8px;
+    padding: 6px;
     opacity: 1;
     transition: 0.3s;
 }
