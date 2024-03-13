@@ -286,7 +286,7 @@ h2 {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    cursor: pointer;
+    cursor: auto;
     -o-object-fit: cover;
   
 }
@@ -352,8 +352,8 @@ h2 {
 }
 .tile--with-detail a {
     position: absolute;
-    top: 85%;
-    right: 10%;
+    top: 40%;
+    right: 30%;
     color: white;
     font-size: 36px;
     font-weight: 600;
