@@ -88,7 +88,7 @@ nav {
     left: 34%; 
     text-decoration: none;
     font-family:  "Playfair Display", serif;
-    color: #501c65; /* Diferent then in #OurProduct.css*/
+    color: #501c65;
     text-transform: uppercase;
     font-weight: 400;
     font-weight: bold;
@@ -177,7 +177,6 @@ button:hover{
 .contact-main{
     width: 100%;
     max-width: 1440px;
-    min-height: 100vh;
     margin: 0 auto;
     padding:0px 15px;
     background-color: #f8f8f8;
@@ -202,13 +201,6 @@ button:hover{
     text-transform: uppercase;
     font-weight: 500;
 }
-/*
-.cont-logo{
-    width: 120px;
-    height: 100px;
-    mix-blend-mode: multiply;
-}
-*/
 .spa-logo{
     width: 120px;
     height: 100px;
@@ -236,7 +228,6 @@ button:hover{
 } 
 .form-title{
     text-align: center;
-    letter-spacing: 2px;
     color: #8e2563;
 }
 .input-field,
@@ -287,9 +278,10 @@ button:hover{
     font-size: 19px;
 }
 .btn-form:focus{
-    background-color: #b05189;
+    background-color: #b8528a;
     border-radius: 5px;
     padding: 5px;
+    transform: scale(1.02);
 }
 .input-field:hover, 
 .textarea:hover, 
@@ -393,7 +385,10 @@ button:hover{
 .add-text{
     width:300px;
     height: 50px;
-    padding-left: 50px;
+    padding-left: 30px;
+    color: #501c65;
+}
+.add-link{
     color: #501c65;
 }
 .add-link:hover{
@@ -504,10 +499,7 @@ button:hover{
         color: #fff;
         border: none;
         float: right;
-} /*
-.footer__form-btn:hover {
-    background-color: rgb(142, 37, 99);
-}  */
+} 
 .footer__find-us-map {
     margin-bottom: 50px;
     color: #501c65;
