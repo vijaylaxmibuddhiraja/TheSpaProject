@@ -254,6 +254,7 @@ nav ul li:nth-child(3) {
   margin-top: -32px;
   font-size: 20px;
   margin-left: 7%;
+  cursor: pointer;
 }
 
 .fa-solid {
