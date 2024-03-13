@@ -121,6 +121,7 @@ nav ul li:nth-child(3) {
     margin-top: -32px;
     font-size: 20px;
     margin-left: 7%;
+    cursor: pointer;
 }
 
 .fa-solid {
@@ -290,6 +291,12 @@ h2 {
     -o-object-fit: cover;
   
 }
+.pic:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    overflow: hidden;
+  }
+  
 
 .secondary-title {
     color: gray;
