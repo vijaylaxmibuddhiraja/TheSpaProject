@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/8472c44b81.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,13 +20,19 @@
 
         <nav>
             <div class="navbar">
-                <a href="#" class="text-logo">SERENITY</a>
-    
+               <div class="logo-toggle-container">
+                  <a href="index.html" class="text-logo">SERENITY</a>
+                     <span class="toggle-box">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                    </span>
+                </div>
                 <ul class="menulist">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Our Product</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/pages/Home.html">Home</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/OurProduct.html">Our Product</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
                 </ul>
                 <div>
                     <button class="btn-nav"><i class="fa-solid fa-calendar-days"></i>BOOK</button>
@@ -37,9 +44,16 @@
         
           <div class="bottom"></div>
     </header>
+    <section>
+        <div class="spa_img"> 
+            <img src="/images/candlespic_con.jpg" alt="spa_relax" class="spa">
+         </div>
+    </section>
     <main>
-      <div class="container-grid">
-                 <img src="/images/flogo.jpg" alt="flower" class="flogo">
+        <div class="container-grid">
+                
+                 <img src="/images/flogo.jpg" alt="flower" class="flogo"> 
+                
                  <h2 class="Product">Our Products</h2>
                  <h1 class="heading">Healthy, Balanced And Beautiful Living</h1>
            <div class="box-container">
@@ -94,7 +108,109 @@
           </div>
       </div>
      </main>
-     
+    
+     <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__inner">
+                    <div class="footer__content-left">
+                    <div class="footer__all-menu">
+                    <div class="footer__menu">
+                        <h5 class="footer__menu-title">EXPERIENCE</h5>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Suites &amp; Rooms</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Restaurants &amp; Bars</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Afternoon Tea</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Aman Spa</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Gallery</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Meetings &amp; Events</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Special offers</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">My Reservations</a></li>
+                        </ul>
+                    </div>    
+                    <div class="footer__menu">
+                        <h5 class="footer__menu-title">GIFTS</h5>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">The Connaught Shop</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Gift Vouchers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu">
+                        <h5 class="footer__menu-title">ABOUT</h5>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="/index.html" class="footer__menu-link">About us</a></li>
+                            <li class="footer__menu-item"><a href="./contact.html" class="footer__menu-link">Contact us</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Careers</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Maybourne Magazine</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu">
+                        <h5 class="footer__menu-title">MAYBOURNE</h5>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Maybourne</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Claridge's</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">The Berkeley</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">The Maybourne Beverly Hills</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">The Maybourne Riviera</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">The Emory</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Surrenne</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer__socia">
+                        <h5 class="footer__menu-title">FOLLOW US</h5>
+                        <ul class="footer_social-list">
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-square-facebook"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="footer__social-item"><a href="#" class="footer__social-link"><i class="fa-solid fa-trophy"></i></a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer__content-right">
+                        <div class="footer__newsletter">
+                            <h5 class="footer__content-right-title">NEWSLETTER SIGNUP</h5>
+                            <form class="footer__form">
+                                <input class="footer__form-input" type="email" placeholder="Email address">
+                                <button class="footer__form-btn" type="submit">SIGN UP</button>
+                            </form>
+                        </div>
+                        <div class="footer__find-us-map">
+                            <h5 class="footer__content-right-title find-us-title">FIND US</h5>
+                            <a class="footer__find-us-link" href="https://www.google.com/maps/place/The+Connaught/@51.5102017,-0.1522353,17z/data=!3m1!4b1!4m9!3m8!1s0x487604d7c5af3c89:0x53cd706c26df4d20!5m2!4m1!1i2!8m2!3d51.5102017!4d-0.149655!16zL20vMGNjMWt2?entry=ttu"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.164299172447!2d-0.15223528763194832!3d51.5102016716964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d7c5af3c89%3A0x53cd706c26df4d20!2sThe%20Connaught!5e0!3m2!1sen!2sse!4v1709838592126!5m2!1sen!2sse" width="400" height="140" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+                            <p class="footer__find-us-text">
+                                The Connaught <br>
+                                Carlos Place <br>
+                                Mayfair <br>
+                                London <br>
+                                W1K 2AL</p>
+                        </div>
+                        <div class="footer__lang">
+                            <form action="" class="footer__lang-form">
+                                <label class="footer__lang-label">Find out more information about us here</label>   
+                                
+                                <select class="footer__lang-select" id="lang" name="lang">
+                                    <option value="SWEDISH">SWEDISH</option>
+                                    <option value="ENGLISH">ENGLISH</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright-text">Copyright © Maybourne. 2024 All rights reserved</p>
+                <ul class="footer__copyright-list">
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">Privacy Policy</a></li>
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">CCPA</a></li>
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">Cookie Policy</a></li>
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">Terms &amp; Conditions</a></li>
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">Modern Slavery Act</a></li>
+                    <li class="footer__copyright-item"><a href="#" class="footer__copyright-link">Sitemap</a></li>
+                </ul>
+            </div>
+         </div>
+    </footer>
      
 </body>
 </html>
