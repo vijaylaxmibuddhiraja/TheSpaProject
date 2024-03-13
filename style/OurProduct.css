@@ -147,6 +147,7 @@ button {
     padding: 6px;
     opacity: 1;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 button:hover {
@@ -175,7 +176,7 @@ margin-top: 1px;
 main {
     box-sizing: border-box;
     width: 100%;  
-    max-width: 1240px; 
+    max-width: 1240px;   
     height: 900px;
     outline: none;
     border: none;
@@ -186,7 +187,7 @@ main {
 } 
 
 .container-grid {
-     max-width: 1240px; 
+     /* max-width: 1240px;  */
     background-color:#f8f8f8 ;
     padding: 40px 20px;   
     display: flex;
