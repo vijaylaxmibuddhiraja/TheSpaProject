@@ -179,7 +179,6 @@ main {
 .container {
     max-width: 1240px;
     margin: 0 auto;
-
 }
 
 .container-grid{
@@ -194,36 +193,40 @@ main {
     /* margin: 30px auto;    */    
 }
 
-.flogo {
-    mix-blend-mode: multiply;
-    width: 10%;
-    height: 10%;
+.cont-top {
     display: flex;
-   align-self: center;
-   /* padding-top: 50px; */
-   margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+.spa-logo {
+    width: 120px;
+    height: 100px;    
 }
 
-h2 {
-    position: relative;
+ h2 {
+    /* position: relative; */
     color:  #501c65;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     font-size: 48px;
     text-transform: uppercase;
     font-style: normal;
-    display: flex;
-    align-self: center;
-    /* margin-left: 33%; */
     margin-top: 20px;
+    /* display: flex;
+    align-self: center; */
+    /* margin-left: 33%; */
+   
 }
 
-h1 {
+ h1 { 
     color: #8e2563;
     font-family:  "Playfair Display", serif;
     font-size: 30px;
-    display: flex;
-    align-self: center;
+    /* display: flex;
+    align-self: center; */
     /* margin-left: 27%;    */
 }
 
