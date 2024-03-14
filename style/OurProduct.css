@@ -184,13 +184,13 @@ main {
 
 .container-grid{
      /* width: 100%;  */
-    max-width: 1240px;
+    /* max-width: 1240px; */
     background-color:#f8f8f8 ;
     padding: 40px 20px;   
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* margin: 30px auto;    */    
 }
 
